@@ -1,8 +1,9 @@
 # Reactable
 
-[![Build Status](https://travis-ci.org/glittershark/reactable.svg?branch=master)](https://travis-ci.org/glittershark/reactable)
-[![Code Climate](https://codeclimate.com/github/glittershark/reactable/badges/gpa.svg)](https://codeclimate.com/github/glittershark/reactable)
+[![Build Status](https://travis-ci.org/abdulrahman-khankan/reactable.svg?branch=master)](https://travis-ci.org/abdulrahman-khankan/reactable)
 
+**NOTE: As of version 1.0.0 ownership of npm reactable package has transferred as previous owner is no longer maintaining the project. Old issues can be found [here](https://github.com/glittershark/reactable/issues). Feel free to submit new issues here.**
+***
 Fast, flexible, and simple data tables in React.
 
 Reactable allows you to display tabular data client-side, and provides sorting,
@@ -64,9 +65,9 @@ at the root of this repositiory][lib-folder].
 Keep in mind that Reactable depends on the latest version of React (0.14), which
 can be downloaded [here][download]
 
-[build-file]: https://github.com/glittershark/reactable/raw/master/build/reactable.js
+[build-file]: https://github.com/abdulrahman-khankan/reactable/raw/master/build/reactable.js
 [download]: http://facebook.github.io/react/downloads.html
-[lib-folder]: https://github.com/glittershark/reactable/tree/master/lib
+[lib-folder]: https://github.com/abdulrahman-khankan/reactable/tree/master/lib
 
 ## Usage
 
