@@ -2,8 +2,12 @@
 
 [![Build Status](https://travis-ci.org/abdulrahman-khankan/reactable.svg?branch=master)](https://travis-ci.org/abdulrahman-khankan/reactable)
 
-**NOTE: As of version 1.0.0 ownership of npm reactable package has transferred as previous owner is no longer maintaining the project. Old issues can be found [here](https://github.com/glittershark/reactable/issues). Feel free to submit new issues here.**
+**NOTE: As of version 1.0.0 ownership of npm reactable package has transferred
+as previous owner is no longer maintaining the project.
+Old issues can be found [here](https://github.com/glittershark/reactable/issues).
+Feel free to submit new issues here.**
 ***
+
 Fast, flexible, and simple data tables in React.
 
 Reactable allows you to display tabular data client-side, and provides sorting,
