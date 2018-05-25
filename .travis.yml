@@ -1,18 +1,18 @@
 sudo: false
 language: node_js
 node_js:
-  - "0.12.7"
+- 0.12.7
 cache:
   directories:
-    - node_modules
+  - node_modules
 before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 deploy:
   provider: npm
-  email: wildgriffin45@gmail.com
+  email: khankan.npm@gmail.com
   api_key:
-    secure: bVNzPUHNCq424hOBDkGHqeIpn3oL1c0DV/KpTyPRMiNbPtjb1LJS+eiWIfMcvkVONPagEJEjJkQXp98OvmoBu9M8UVqJ3WJAGeNJsgmd//NuU7eKyhC6RIseZttET2xXz7WBYuHKzQqN4CHBge+rYn7aCqkruffJdZqHcgvodcA=
+    secure: AWIu/QIoRFzws87y8rGt1KnP/EVrY3kAvBkftT862kksdULL23Hd7xN+J+0tJ/BpfUkEMGOZDStfuid9VaxfyN1MhH1hkGPQ8/uFJmgN9yjNySZseoUABY7aXGxiEeM0ISgvkzWW4+yT/WZtNzI5REI86IDT4/FO7RHTp85OjwVetV2qGNNK+UUZ3QqM+dgGG/u5Gr8ysK8kp18MSGtAtE7ozfec8uokK69f1ZNIRBpqxgxxOLZdbJFnE3FQuozEjRc2zczbcSlov9faOP+RjE3zZJHG5rEsNDkOWZzo3+CVXyLPJfu2fW+/DVXSkdj/npSl0FV0QYlKXjpRKjHroFyfCZCuceSPsmMmxT3VnGT1IQRLKVWaRUyslyppYzNoYJd8Xl3qY9JuyZIsavKuOhHsst/dF5bpbc9dHIU6BhhNPJCu3s9pQmbOy1aPg7ysbhnpMLBW0RKShEOGSZhCe6UGtG8ruvqCYgk0dWyniuj3a6K8A95/KTz2OTFNFHMhcjNl2Dxmq9lCSGU0m6z3ixgOMXLWn2+IbHj8o9eMeZ4kVWqi2ZtKuVrgpDQzIXwhxzzIJRTCRTrOBvHdrcMpQHaF1B6iLygWigMbeLQF0Ha4CSErFLdCjIwaYPgOMU0ZkSxmiE2M9LeQpd98xmNG1Q7yCQboRHyXLNf5Y0c5C80=
   on:
     tags: true
-    repo: glittershark/reactable
+    repo: abdulrahman-khankan/reactable
