@@ -23,7 +23,7 @@ this the faster we can get to 1.0!
 as of version 0.10 (this version) Reactable will only continue to support React
 0.12 and higher.
 
-[0.9.8]: https://github.com/glittershark/reactable/tree/0.9.8
+[0.9.8]: https://github.com/abdulrahman-khankan/reactable/tree/0.9.8
 
 ## Table of Contents
 
@@ -59,9 +59,9 @@ at the root of this repositiory][lib-folder].
 Keep in mind that Reactable depends on the latest version of React (0.12),
 **with addons**. That can be downloaded [here][download]
 
-[build-file]: https://github.com/glittershark/reactable/raw/master/build/reactable.js
+[build-file]: https://github.com/abdulrahman-khankan/reactable/raw/master/build/reactable.js
 [download]: http://facebook.github.io/react/downloads.html
-[lib-folder]: https://github.com/glittershark/reactable/tree/master/lib
+[lib-folder]: https://github.com/abdulrahman-khankan/reactable/tree/master/lib
 
 ## Usage
 
