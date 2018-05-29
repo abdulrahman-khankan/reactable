@@ -43,12 +43,6 @@ this the faster we can get to 1.0!
 
 ## Installation
 
-### Using Bower
-
-```sh
-bower install [--save] reactable
-```
-
 ### Using NPM
 
 ```sh
