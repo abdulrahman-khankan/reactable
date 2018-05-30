@@ -1,10 +1,9 @@
 # Reactable
 
-
-![license](https://img.shields.io/github/license/abdulrahman-khankan/reactable.svg)
-![npm](https://img.shields.io/npm/v/reactable.svg)
-![npm](https://img.shields.io/npm/dw/reactable.svg)
-![npm](https://img.shields.io/npm/dt/reactable.svg)
+[![license](https://img.shields.io/github/license/abdulrahman-khankan/reactable.svg)](https://github.com/abdulrahman-khankan/reactable/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/reactable.svg)](https://www.npmjs.com/package/reactable)
+[![npm](https://img.shields.io/npm/dw/reactable.svg)](https://www.npmjs.com/package/reactable)
+[![npm](https://img.shields.io/npm/dt/reactable.svg)](https://www.npmjs.com/package/reactable)
 [![Build Status](https://travis-ci.org/abdulrahman-khankan/reactable.svg?branch=master)](https://travis-ci.org/abdulrahman-khankan/reactable)
 
 Fast, flexible, and simple data tables in React (up to v16).
