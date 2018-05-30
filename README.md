@@ -2,13 +2,7 @@
 
 [![Build Status](https://travis-ci.org/abdulrahman-khankan/reactable.svg?branch=master)](https://travis-ci.org/abdulrahman-khankan/reactable)
 
-**NOTE: As of version 1.0.0 ownership of npm reactable package has transferred
-as previous owner is no longer maintaining the project.
-Old issues can be found [here](https://github.com/glittershark/reactable/issues).
-Feel free to submit new issues here.**
-***
-
-Fast, flexible, and simple data tables in React.
+Fast, flexible, and simple data tables in React (up to v16).
 
 Reactable allows you to display tabular data client-side, and provides sorting,
 filtering, and pagination over that data. It uses the power of [React.js][react]
@@ -18,13 +12,14 @@ something complicated or unconventional.
 
 [react]: http://facebook.github.io/react/
 
-This project is currently alpha-stage, which means the API may or may not be
-unstable and there might be hidden bugs lurking around any corner. I'll try to
-tag any releases with breaking changes, however, and the more people who use
-this the faster we can get to 1.0!
+There might be hidden bugs lurking around any corner. I'll try to
+tag any releases with breaking changes.
 
-**Note:** As of version 0.12.0 Reactable will only continue to support React
-0.14 and higher.
+**Note**: As of version 1.0.0 ownership of npm reactable package has transferred
+as previous owner is no longer maintaining the project.
+Old issues can be found [here](https://github.com/glittershark/reactable/issues).
+Feel free to submit new issues [here](https://github.com/abdulrahman-khankan/reactable/issues).
+***
 
 ## Table of Contents
 
@@ -60,8 +55,8 @@ Reactable also exposes a set of CommonJS modules for piece-by-piece use with
 Node, Webpack, Browserify, etc. These modules are located in the [`lib` folder
 at the root of this repositiory][lib-folder].
 
-Keep in mind that Reactable depends on the latest version of React (0.14), which
-can be downloaded [here][download]
+Keep in mind that Reactable depends on React, which can be downloaded 
+[here][download]
 
 [build-file]: https://github.com/abdulrahman-khankan/reactable/raw/master/build/reactable.js
 [download]: http://facebook.github.io/react/downloads.html
@@ -72,7 +67,11 @@ can be downloaded [here][download]
 The simplest example:
 
 ```jsx
+// ES6
+// import { Table } from "reactable";
+
 var Table = Reactable.Table;
+
 ReactDOM.render(
     <Table className="table" data={[
         { Name: 'Griffin Smith', Age: 18 },
@@ -98,6 +97,9 @@ This approach can be freely combined with the `data` property on the `<Table>`,
 and is useful if you want to specify per-row attributes such as classes, like so:
 
 ```jsx
+// ES6
+// import { Table, Tr } from "reactable";
+
 var Table = Reactable.Table,
     Tr = Reactable.Tr;
 
@@ -124,6 +126,9 @@ specified, the data used will default to the `Td`'s children.
 Example:
 
 ```jsx
+// ES6
+// import { Table, Tr, Td } from "reactable";
+
 var Table = Reactable.Table,
     Tr = Reactable.Tr,
     Td = Reactable.Td;
@@ -168,6 +173,9 @@ objects, you can either:
   render the table headers. For example:
 
 ```jsx
+// ES6
+// import { Table, Thead, Th, Tr, Td } from "reactable";
+
 var Table = Reactable.Table,
     Thead = Reactable.Thead,
     Th = Reactable.Th,
@@ -334,6 +342,9 @@ additional markup. We tell the Td to take "Griffin Smith" as value for data
 handling (filter or sort).
 
 ```jsx
+// ES6
+// import { Table, Tr, Td } from "reactable";
+
 var Table = Reactable.Table,
     Tr = Reactable.Tr,
     Td = Reactable.Td;
