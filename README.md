@@ -16,10 +16,9 @@ There might be hidden bugs lurking around any corner. I'll try to
 tag any releases with breaking changes.
 
 **Note**: As of version 1.0.0 ownership of npm reactable package has transferred
-as previous owner is no longer maintaining the project.
+and linked to this repo as previous owner is no longer maintaining the project.
 Old issues can be found [here](https://github.com/glittershark/reactable/issues).
 Feel free to submit new issues [here](https://github.com/abdulrahman-khankan/reactable/issues).
-***
 
 ## Table of Contents
 
