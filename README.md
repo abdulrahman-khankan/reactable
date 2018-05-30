@@ -55,7 +55,7 @@ Reactable also exposes a set of CommonJS modules for piece-by-piece use with
 Node, Webpack, Browserify, etc. These modules are located in the [`lib` folder
 at the root of this repositiory][lib-folder].
 
-Keep in mind that Reactable depends on React, which can be downloaded 
+Keep in mind that Reactable depends on React, which can be downloaded
 [here][download]
 
 [build-file]: https://github.com/abdulrahman-khankan/reactable/raw/master/build/reactable.js
