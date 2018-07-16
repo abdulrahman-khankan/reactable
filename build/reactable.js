@@ -1093,16 +1093,16 @@ window.ReactDOM["default"] = window.ReactDOM;
                             return;
                         }
 
-                        switch (child.type) {
-                            case _thead.Thead:
+                        switch ('' + child.type) {
+                            case '' + _thead.Thead:
                                 break;
-                            case _tfoot.Tfoot:
+                            case '' + _tfoot.Tfoot:
                                 if (typeof tfoot !== 'undefined') {
                                     console.warn('You can only have one <Tfoot>, but more than one was specified.' + 'Ignoring all but the last one');
                                 }
                                 tfoot = child;
                                 break;
-                            case _tr.Tr:
+                            case '' + _tr.Tr:
                                 var childData = child.props.data || {};
 
                                 _react['default'].Children.forEach(child.props.children, function (descendant) {
