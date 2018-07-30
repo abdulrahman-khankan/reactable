@@ -62,17 +62,17 @@ export class Table extends React.Component {
                     return;
                 }
 
-                switch (child.type) {
-                    case Thead:
+                switch (`${child.type}`) {
+                    case `${Thead}`:
                     break;
-                    case Tfoot:
+                    case `${Tfoot}`:
                         if (typeof(tfoot) !== 'undefined') {
                             console.warn ('You can only have one <Tfoot>, but more than one was specified.' +
                                           'Ignoring all but the last one');
                         }
                         tfoot = child;
                     break;
-                    case Tr:
+                    case `${Tr}`:
                         let childData = child.props.data || {};
 
                         React.Children.forEach(child.props.children, function(descendant) {
