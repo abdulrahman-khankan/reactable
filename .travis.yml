@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-- 0.12.7
+- "lts/*"
 cache:
   directories:
   - node_modules
@@ -12,7 +12,7 @@ deploy:
   provider: npm
   email: khankan.npm@gmail.com
   api_key:
-    secure: jSx/ApnoZybWw8G0mn+q5HCo9jqPPd21TSUcwdljK8oTmvyKX1UwTqXfbIXIFHl08rdJwClbIw2n8vRdcSXvxIbRvNxxjdDV0lL57IXiQ2Tv/0hrb2eQd+cAhIcUAbvgt9zn6dDENjcZVXXMcNnQfajrJjgiL7mAx4Y6O4l/vwgY0RdTF4T6B1atSK6+72iY1LAxirBHytAXfXUISKxFblAPzyOJmWsW5g4tCCBFGWprD81CF3juuIZsF/T2w+9T2GA++ebI+ZpVatAVZBdOJ0Dr8FIw8DzytBv8KcNyC/AYUtYEG/ct5OxCWxGhtQH50qpTjSz2L57SlfbBw6ssNrmglQABRZA8WG/Ju+1dLa0VIhVpBKkGov/e770oExnYSQBv8KTkg/mDh1gZ4UtqldB7vQij+39OC9mNzKmqZvPiiAW4N2eWE6ZZd9C/fbT2xwLIwM/50IN8IJhRYRu6S3hhV8UNSXFi0UgmfYm6mcBiGo4iFgKly++0kXT2iBn0xydImbJ8RW3Hpq2j2KN8AEbytXFVXbJssYt5uxIBVqxPtp+NEgKWU8H4LiPVCs0GkbSZhkZa2FbEB714rqFIXbR4Iao0e3t7nloxS3n/kAMeZldsS6DwSMAaAsQX7sTaCgVotiZivyI6ExFgulSRCQEWmNSfNAP4SrsLU+MeEf4=
+    secure: uWt2M9/v9GHgO3FdHkZ2BZKljCxUIr6PdfwLNTth/WXy2xbEWp62so/+IM6ybwXnjRpOF/vhjJ28DnN+GDEMhZlKM+eIdKkjfG6ql7bzshFmBg5D6gH9XJv4qwCrjDz6MU23FPl/FzPd/hR2kBbvIBS/9lexjyPNRM9LmTFwKgvhFlZKuPs4oe0WHsmm01rQBBsbni1hzLFDC3sqv5zR8utAuvum3O6S2lFZPd/Bam9Rkg76FGEBKcdZNgieeJdrFeu7Xz+0foLof67pBhxvpyf9jLzQZO6Ie3Ju3a85zEWeB4YmYDhMrhszpDMQHSk7vxxUVs9RfHvF8RoHH2yfZrUeI+qC8j5Kpj4SI2tQu12XSlSS4btzeZGtY5YtLwfOmNJPqmU2yLcuUFFPu3My4YBK8gv1C968F4URGmf4W7eyX3TUVzVRMSM4dMvuq2UuBBo4KPGf0GDQyICi5DcMzQaPFWXIi6+UOw14i/MBoB+aU6lvWe986lazsjwOq0AHOGRQoY8J++v8IZJB8PGUt5W0L2Xd/YHCUz7lHd3DKuIBtvZ4AZRcp0RD3zBCavkHjOAE34xHNH19o+y/dZqFGfhQUc2MZ2dz+fDf4sF47uhZ3BUSGqc6gRGiN2UZUqcF4c3OpdVY/puBDpUQ9jnCuApUZRmRkK1ay9EW55e/6I4=
   on:
     tags: true
     repo: abdulrahman-khankan/reactable
